@@ -1,19 +1,19 @@
 {
   "tasks": [
     {
-      "id": "e9b64bdd-4814-4227-8379-9c707d9ee0d1",
+      "id": "a70bd536-7708-473a-b4fe-89bd826fb9a6",
       "type": "todo",
-      "task": "Sample todo"
+      "task": "Something to do"
     },
     {
-      "id": "5961538c-90ff-424b-95cb-c3f8152d6567",
+      "id": "42ca008c-583f-4d0c-9c21-faaeab4e427a",
       "type": "progress",
-      "task": "Yia"
+      "task": "Something in progress"
     },
     {
-      "id": "5d3cd781-8917-42e6-a040-28b9be063e42",
+      "id": "d5f2088a-98bd-4865-b00f-8ce71b3a4205",
       "type": "done",
-      "task": "kk"
+      "task": "Something done"
     }
   ]
 }

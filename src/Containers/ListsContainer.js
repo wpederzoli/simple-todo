@@ -50,13 +50,13 @@ export class ListsContainer extends Component{
     cancelAddTask(type){
         switch(type){
         case 'todo':
-            this.setState({ addTodo: false });
+            this.setState({ addTodo: false, addTodoInput: '' });
             break;
         case 'progress':
-            this.setState({ addProgress: false });
+            this.setState({ addProgress: false, addProgressInput: ''});
             break;
         case 'done':
-            this.setState({ addDone: false });
+            this.setState({ addDone: false, addDoneInput: '' });
             break;
         default:
             break;
@@ -74,7 +74,7 @@ export class ListsContainer extends Component{
                 this.setState({ addProgress: false, addProgressInput: '' });
                 break;
             case 'done':
-                this.setState({ addDone: false, addDoneProgress: '' });
+                this.setState({ addDone: false, addDoneInput: '' });
                 break;
             default:
                 break;
