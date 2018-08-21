@@ -7,7 +7,9 @@
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "test": "jest --watch --verbose",
-    "lint": "./node_modules/.bin/esw webpack.config.js src --watch"
+    "lint": "./node_modules/.bin/esw webpack.config.js src --watch",
+    "web-prod": "serve -p $PORT public",
+    "db-prod": "json-server -p 3001 -w db.json"
   },
   "babel": {
     "presets": [
@@ -51,6 +53,7 @@
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "serve": "^9.6.0"
   }
 }

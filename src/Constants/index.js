@@ -1,1 +1,1 @@
-export const API = 'http://localhost:3000/tasks';
+export const API = 'https://simple-todo-json-db.herokuapp.com/tasks';
