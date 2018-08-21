@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "e9b64bdd-4814-4227-8379-9c707d9ee0d1",
+      "type": "todo",
+      "task": "Sample todo"
+    },
+    {
+      "id": "5961538c-90ff-424b-95cb-c3f8152d6567",
+      "type": "progress",
+      "task": "Yia"
+    },
+    {
+      "id": "5d3cd781-8917-42e6-a040-28b9be063e42",
+      "type": "done",
+      "task": "kk"
+    }
+  ]
+}

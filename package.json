@@ -1,0 +1,56 @@
+{
+  "name": "simple-todo",
+  "version": "1.0.0",
+  "description": "simple todo app with react-redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "test": "jest --watch --verbose",
+    "lint": "./node_modules/.bin/esw webpack.config.js src --watch"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+  },
+  "author": "William Pederzoli",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-watch": "^4.0.2",
+    "fetch-mock": "^6.5.2",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "react-test-renderer": "^16.4.2",
+    "redux-mock-store": "^1.5.3",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.5.1",
+    "@material-ui/icons": "^2.0.3",
+    "axios": "^0.18.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
