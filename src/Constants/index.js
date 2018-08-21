@@ -1,1 +1,1 @@
-export const API = 'mongodb://test:simpletodo1@ds125482.mlab.com:25482/simple-todo-db';
+export const API = 'http://localhost:3000/tasks';
